@@ -289,6 +289,7 @@ $drag-handle-border: 1px solid rgba(255, 255, 255, 0.7) !default;
   &--fixed-aspect &__drag-handle.ord-n,
   &--fixed-aspect &__drag-handle.ord-e,
   &--fixed-aspect &__drag-handle.ord-s,
+  &--fixed-aspect &__drag-handle.ord-l,
   &--fixed-aspect &__drag-handle.ord-w {
     display: none;
   }
@@ -297,6 +298,7 @@ $drag-handle-border: 1px solid rgba(255, 255, 255, 0.7) !default;
     .ord-n,
     .ord-e,
     .ord-s,
+    .ord-l,
     .ord-w {
       display: none;
     }
