@@ -223,6 +223,16 @@ $drag-handle-border: 1px solid rgba(255, 255, 255, 0.7) !default;
       left: 0;
     }
   }
+  .ord-l {
+    bottom: 25%;
+    left: 50%;
+    margin-bottom: -(ceil($drag-handle-height / 2));
+    margin-left: -(ceil($drag-handle-width / 2));
+
+    &::after {
+      bottom: 0;
+    }
+  }
 
   // Use the same specificity as the ords above but just
   // come after.
@@ -260,6 +270,13 @@ $drag-handle-border: 1px solid rgba(255, 255, 255, 0.7) !default;
       width: $drag-bar-size;
       height: 100%;
       margin-left: -($drag-bar-size / 2);
+    }
+    &.ord-l {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: $drag-bar-size;
+      margin-bottom: -($drag-bar-size / 2);
     }
   }
 
