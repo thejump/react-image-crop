@@ -15,5 +15,6 @@ dist/
 ehthumbs.db
 Thumbs.db
 bundle.js
+.history
 
 NOTES.md
